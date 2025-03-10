@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #1b1b1b;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1b1b1b;
+}
+
+header a {
+    color: #818181;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.phone {
+    background-image: url(./iphone\ 4.png);
+    padding: 150px;
+    border-bottom: solid black;
+    
+}
+
+.signup  {
+    color: white;
+    margin-left: 125px;
+    
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    background-color: #5094f2;
+    border-radius: 24px;
+    border: none;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin: 30px 0px;
+}
+
+.items h3 {
+    color: #5094f2;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin: 30px 32px;
+    justify-content: center;
+
+}
+
+.copyrights {
+    border: #818181;
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    color: #c8c8c8;
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: #f7f7f7;
+    font-size: 13px;
+    padding: 10px;
+}
+
+
+.shop {
+   
+    margin: 50px;
+}
